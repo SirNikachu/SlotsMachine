@@ -8,17 +8,17 @@ ROWS = 3  # Number of rows in the slot machine
 COLS = 3  # Number of columns in the slot machine
 
 symbol_count = {
-    "A": 2,  # Count of symbol A in the slot machine
-    "B": 4,  # Count of symbol B in the slot machine
-    "C": 6,  # Count of symbol C in the slot machine
-    "D": 8   # Count of symbol D in the slot machine
+    "A": 2,  
+    "B": 4,  
+    "C": 6,  
+    "D": 8   
 }
 
 symbol_value = {
-    "A": 5,  # Value of symbol A
-    "B": 4,  # Value of symbol B
-    "C": 3,  # Value of symbol C
-    "D": 2   # Value of symbol D
+    "A": 5, 
+    "B": 4,  
+    "C": 3,  
+    "D": 2   
 }
 
 def check_winnings(columns, lines, bet, values):
